@@ -1,6 +1,6 @@
 .PHONY : all clean
 
-SRC = referential-transparency
+SRC = referential_transparency
 
 all : $(SRC).pdf $(SRC)_without_animation.pdf
 
