@@ -2,7 +2,7 @@
 
 set -eo
 
-TARGET="referential_transparency_without_animation"
+TARGET="referential_transparency"
 
 if [[ ! $(git rev-parse --verify gh-pages 2>/dev/null) ]]; then
   git checkout --orphan gh-pages
